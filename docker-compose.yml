@@ -1,0 +1,8 @@
+services:
+  postgres:
+    image: postgres:13.4
+    environment:
+      POSTGRES_USER: win-fn
+      POSTGRES_PASSWORD: win-fn
+    ports:
+      - 5432:5432
